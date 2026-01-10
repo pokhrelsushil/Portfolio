@@ -19,17 +19,19 @@ const Experience = () => {
       ],
     },
     {
-      title: "Intern Web Developer",
-      company: "Tech Solutions Ltd.",
-      period: "June 2022 - August 2022",
-      location: "Kathmandu, Nepal",
+      title: "Machine Learning Researcher",
+      company: "Google Deepmind",
+      period: "June 2024 - Present",
+      location: "New York , USA ",
       current: false,
-      description:
-        "Assisted in developing and maintaining client websites, gaining hands-on experience with front-end and back-end technologies in a professional setting.",
-      responsibilities: [
-        "Collaborated with senior developers to build responsive web applications",
-        "Participated in code reviews and team meetings to enhance development skills",
-        "Assisted in debugging and testing web applications to ensure quality",
+     description:
+  "Conduct research on reinforcement learning and intelligent agents for sequential decision-making.",
+responsibilities: [
+  "Develop and evaluate RL algorithms",
+  "Run experiments and analyze results",
+  "Collaborate with research teams",
+],
+
       ],
     },
   ];
