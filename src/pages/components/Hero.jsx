@@ -3,7 +3,7 @@ import React from "react";
 // import { Link } from "react-router-dom";
 import ScrollToExplore from "../../components/ScrollToExplore";
 import { FaGoogleScholar } from "react-icons/fa6";
-import profileImage from '../../assets/image.png';
+import profileImage from '../../assets/sushilpokhrel.jpg';
 
 const Hero = () => { 
     const handleSmoothScroll = (e, id) => {
@@ -133,7 +133,7 @@ const Hero = () => {
               >
                 <img
                   src={profileImage}
-                  alt="Sushil Sharma"
+                  alt="Sushil Pokhrel"
                   className="w-full h-full object-cover object-top 
                            grayscale-[20%] 
                            hover:grayscale-0 

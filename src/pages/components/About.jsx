@@ -36,7 +36,7 @@ const About = () => {
               <div className="rounded-2xl overflow-hidden border-4 md:border-8 border-blue-400 shadow-xl flex items-center justify-center">
                 <img
                   src={profileImage}
-                  alt="Sushil Sharma"
+                  alt="Sushil Pokhrel"
                   className="w-full h-auto object-cover aspect-square sm:aspect-[4/5] lg:aspect-auto max-w-full max-h-full"
                 />
               </div>
