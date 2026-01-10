@@ -4,25 +4,16 @@ import { GraduationCap, Calendar, MapPin } from "lucide-react";
 const Education = () => {
   const educationList = [
     {
-      degree: "Computer Science, Bachelor of Science (BSc CS)",
-      institution: "Tribhuvan University (TU)",
-      location: "Pokhara, Nepal",
-      period: "February 2020 - March 2025",
+      PhD: "Systems Design Engineering(SYDE)",
+      institution: "University of Waterloo "
+      Location: "Waterloo , Ontario, Canada",
       description:
         "This program provides a comprehensive foundation in computing, covering key areas such as software development, database management, networking, cybersecurity, and artificial intelligence. The course emphasizes practical application, problem-solving, and industry-relevant skills.",
     },
     {
-      degree: "Higher Education (+2) in Science",
-      institution: "Pokhara Higher Secondary School",
-      location: "Pokhara, Nepal",
-      period: "May 2015 - April 2019",
-      description: null,
-    },
-    {
-      degree: "Secondary Education Examination (SEE)",
-      institution: "Gyanodya Academy || Samata Shikshya Niketan Secondary School",
-      location: "Pokhara, Nepal",
-      period: "May 2004 - March 2015",
+      degree: "MS: Biomedical Engineering (BME)",
+      institution: "[State University of New York (SUNY)]",
+      location: "Vestal ,New York, USA",
       description: null,
     },
   ];
