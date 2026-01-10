@@ -97,7 +97,7 @@ const Contact = () => {
                     rel="noopener noreferrer"
                     className="text-lg sm:text-xl text-gray-700 hover:text-blue-500 transition-colors duration-300"
                   >
-                    example@gmail.com
+                    sushil.pokhrel@gmail.com
                   </a>
                 </div>
               </div>
@@ -135,28 +135,28 @@ const Contact = () => {
             {/* Social Icons */}
             <div className="flex gap-4 md:gap-6 mt-10 md:mt-14">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/sushilpokhrel/"
                 className="p-3 md:p-4 bg-blue-600/30 rounded-2xl hover:scale-110 transition-all duration-300"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-6 h-6 md:w-8 md:h-8 text-blue-500 hover:text-blue-700" />
               </a>
               <a
-                href="#"
+                href="https://github.com/pokhrelsushil/"
                 className="p-3 md:p-4 bg-blue-600/30 rounded-2xl hover:scale-110 transition-all duration-300"
                 aria-label="GitHub"
               >
                 <Github className="w-6 h-6 md:w-8 md:h-8 text-blue-500 hover:text-blue-700" />
               </a>
               <a
-                href="#"
+                href="https://scholar.google.com/citations?user=BPN7wnsAAAAJ&hl=en"
                 className="p-3 md:p-4 bg-blue-600/30 rounded-2xl hover:scale-110 transition-all duration-300"
                 aria-label="Google Scholar"
               >
                 <FaGoogleScholar className="w-6 h-6 md:w-8 md:h-8 text-blue-500 hover:text-blue-700" />
               </a>
               <a
-                href="#"
+                href="https://x.com/sushilpokhrel"
                 className="p-3 md:p-4 bg-blue-600/30 rounded-2xl hover:scale-110 transition-all duration-300"
                 aria-label="Twitter"
               >
