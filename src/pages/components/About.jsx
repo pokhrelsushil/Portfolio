@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 // import { Link } from "react-router-dom";
 import { Tweet } from "react-tweet";
 import XTimeline from "../../components/XTimeline";
-import profileImage from '../../assets/sushilpokhrel.jpg';
+import profileImage from '../../assets/sushilpokhrel1.png';
 
 const About = () => {
   return (
