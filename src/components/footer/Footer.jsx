@@ -51,7 +51,7 @@ const Footer = () => {
             {/* Social Icons - Centered on mobile */}
             <div className="flex justify-center lg:justify-start gap-4 sm:gap-3">
               <Link
-                to="#"
+                to="https://www.linkedin.com/in/sushilpokhrel/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 sm:p-3.5 bg-blue-900/30 rounded-xl text-blue-500 hover:text-blue-700 hover:shadow-md hover:scale-110 transition-all duration-300"
@@ -60,7 +60,7 @@ const Footer = () => {
                 <Linkedin className="w-6 h-6 sm:w-7 sm:h-7" />
               </Link>
               <Link
-                to="#"
+                to="https://github.com/pokhrelsushil/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 sm:p-3.5 bg-blue-900/30 rounded-xl text-blue-500 hover:text-blue-700 hover:shadow-md hover:scale-110 transition-all duration-300"
@@ -69,7 +69,7 @@ const Footer = () => {
                 <Github className="w-6 h-6 sm:w-7 sm:h-7" />
               </Link>
               <Link
-                to="#"
+                to="https://mail.google.com/mail/u/0/#compose?to=sushil.pokhrel@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 sm:p-3.5 bg-blue-900/30 rounded-xl text-blue-500 hover:text-blue-700 hover:shadow-md hover:scale-110 transition-all duration-300"
@@ -78,7 +78,7 @@ const Footer = () => {
                 <Mail className="w-6 h-6 sm:w-7 sm:h-7" />
               </Link>
               <Link
-                to="#"
+                to="https://scholar.google.com/citations?user=BPN7wnsAAAAJ&hl=en"
                 className="p-3 sm:p-3.5 bg-blue-900/30 rounded-xl text-blue-500 hover:text-blue-700 hover:shadow-md hover:scale-110 transition-all duration-300"
                 aria-label="Google Scholar"
               >
@@ -142,12 +142,12 @@ const Footer = () => {
               <div className="flex items-center justify-center lg:justify-start gap-4">
                 <Mail className="w-6 h-6 sm:w-7 sm:h-7 text-blue-500 flex-shrink-0" />
                 <Link
-                  to="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=example@gmail.com"
+                  to="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=sushil.pokhrel@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-base sm:text-lg text-gray-600 hover:text-blue-500 transition-colors duration-300"
                 >
-                  example@gmail.com
+                  sushil.pokhrel@gmail.com
                 </Link>
               </div>
               <div className="flex items-center justify-center lg:justify-start gap-4">
@@ -167,7 +167,7 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-gray-300 text-center">
           <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-4 text-sm sm:text-base">
             <p className="text-gray-500">
-              © {new Date().getFullYear()} Sushil Sharma. All rights reserved.
+              © {new Date().getFullYear()} Sushil Pokhrel. All rights reserved.
             </p>
             <div className="flex gap-6">
               <Link

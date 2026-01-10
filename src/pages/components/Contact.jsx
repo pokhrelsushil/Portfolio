@@ -92,7 +92,7 @@ const Contact = () => {
                 <div>
                   <p className="md:text-lg md:text-base text-gray-600">Email</p>
                   <a
-                    href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=example@gmail.com"
+                    href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=sushil.pokhrel@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-lg sm:text-xl text-gray-700 hover:text-blue-500 transition-colors duration-300"

@@ -88,7 +88,7 @@ const Navbar = () => {
                   {
                     icon: Mail,
                     label: "Email",
-                    href: "mailto:your.email@example.com",
+                    href: "https://mail.google.com/mail/u/0/#compose?to=sushil.pokhrel@gmail.com",
                   },
                   { icon: Twitter, label: "Twitter", href: "https://x.com/sushilpokhrel" },
                 ].map((social, index) => (

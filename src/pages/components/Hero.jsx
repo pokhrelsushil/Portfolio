@@ -83,15 +83,15 @@ const Hero = () => {
 
               <div className="flex flex-wrap justify-center lg:justify-start gap-2 sm:gap-2">
                 {[
-                  { icon: Linkedin, label: "LinkedIn", href: "#" },
-                  { icon: Github, label: "GitHub", href: "#" },
-                  { icon: FaGoogleScholar, label: "Google Scholar", href: "#" },
+                  { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/sushilpokhrel/" },
+                  { icon: Github, label: "GitHub", href: "https://github.com/pokhrelsushil/" },
+                  { icon: FaGoogleScholar, label: "Google Scholar", href: "https://scholar.google.com/citations?user=BPN7wnsAAAAJ&hl=en" },
                   {
                     icon: Mail,
                     label: "Email",
-                    href: "mailto:your.email@example.com",
+                    href: "https://mail.google.com/mail/u/0/#compose?to=sushil.pokhrel@gmail.com",
                   },
-                  { icon: Twitter, label: "Twitter", href: "tel:98XXXXXXXX" },
+                  { icon: Twitter, label: "Twitter", href: "https://x.com/sushilpokhrel" },
                 ].map((social, index) => (
                   <a
                     key={index}
