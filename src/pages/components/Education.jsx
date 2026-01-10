@@ -1,5 +1,6 @@
 import React from "react";
 import { GraduationCap, Calendar, MapPin } from "lucide-react";
+
 const educationList = [
   {
     degree: "PhD: Systems Design Engineering (SYDE)",
@@ -18,8 +19,13 @@ const educationList = [
       "Master’s training in biomedical engineering with emphasis on computational methods for healthcare. Focus areas included biomedical signal processing, medical imaging, machine learning for health data, and modeling of biological systems, alongside foundations for health-oriented cyber–physical systems. Developed interdisciplinary expertise at the interface of engineering, computation, and medicine, with attention to translational impact and responsible use in clinical contexts.",
   },
 ];
+
+const Education = () => {
   return (
-    <section id="education" className="min-h-screen bg-gray-50/80 py-12 sm:py-16 md:py-20 px-5 sm:px-6 lg:px-8">
+    <section
+      id="education"
+      className="min-h-screen bg-gray-50/80 py-12 sm:py-16 md:py-20 px-5 sm:px-6 lg:px-8"
+    >
       <div className="max-w-6xl mx-auto">
         {/* Section Title */}
         <div className="text-center mb-12 md:mb-16">
@@ -62,19 +68,20 @@ const educationList = [
                       </div>
                     </div>
 
-                    {/* Period */}
+                    {/* Period + Location */}
                     <div className="flex sm:flex-row gap-8 text-gray-600 font-medium mb-5 md:mb-6">
-                     <div className="flex items-center gap-2">
-                      <Calendar className="w-5 h-5 md:w-6 md:h-6" />
-                      <span className="text-base md:text-lg text-blue-600 font-medium">
-                        {edu.period}
-                      </span>
-                     </div>
                       <div className="flex items-center gap-2">
-                      <MapPin className="w-5 h-5 md:w-6 md:h-6" />
-                      <span className="text-base md:text-lg text-blue-600 font-medium">
-                        {edu.location}
-                      </span>
+                        <Calendar className="w-5 h-5 md:w-6 md:h-6" />
+                        <span className="text-base md:text-lg text-blue-600 font-medium">
+                          {edu.period}
+                        </span>
+                      </div>
+
+                      <div className="flex items-center gap-2">
+                        <MapPin className="w-5 h-5 md:w-6 md:h-6" />
+                        <span className="text-base md:text-lg text-blue-600 font-medium">
+                          {edu.location}
+                        </span>
                       </div>
                     </div>
 
