@@ -3,18 +3,28 @@ import { GraduationCap, Calendar, MapPin } from "lucide-react";
 
 const Education = () => {
   const educationList = [
-    {
-      PhD: "Systems Design Engineering(SYDE)",
-      institution: "University of Waterloo "
-      Location: "Waterloo , Ontario, Canada",
-      description:
+    {   {
+  degree: "PhD: Systems Design Engineering (SYDE)",
+  institution: "University of Waterloo",
+  location: "Waterloo, Ontario, Canada",
+  period: "YYYY–Present",
+  description: "{
+  degree: "PhD: Systems Design Engineering (SYDE)",
+  institution: "University of Waterloo",
+  location: "Waterloo, Ontario, Canada",
+  period: "Present",
+  description: "PhD Research Areas: Design of principled AI agents and human–AI collaboration for complex, sequential decision-making. Core methods include reinforcement learning(RL), interpretable and adaptive interactive AI, value elicitation and alignment, and foundation models for high-stakes systems. Research spans robotics, Human Factors,cyber–physical systems, biomedical engineering (BME), and secure intelligent systems (including cryptographic and privacy-aware computation). Interdisciplinary directions include physics-informed and materials-aware AI for scientific discovery. Application domains include safety-critical autonomy (e.g., autonomous vehicles), small modular reactors, and large-scale socio-technical systems, with emphasis on safety, robustness, and trustworthy deployment."
+}
+"
+}
+
         "This program provides a comprehensive foundation in computing, covering key areas such as software development, database management, networking, cybersecurity, and artificial intelligence. The course emphasizes practical application, problem-solving, and industry-relevant skills.",
     },
     {
       degree: "MS: Biomedical Engineering (BME)",
       institution: "[State University of New York (SUNY)]",
       location: "Vestal ,New York, USA",
-      description: null,
+      description: "Master’s training in biomedical engineering with focus on computational and intelligent systems for healthcare. Coursework and research covered biomedical signal processing, medical imaging, machine learning for health data, modeling of biological systems, and health-oriented cyber–physical systems. Developed interdisciplinary expertise at the interface of engineering, computation, and medicine, with emphasis on quantitative analysis, translational impact, and responsible deployment in clinical contexts."
     },
   ];
 
