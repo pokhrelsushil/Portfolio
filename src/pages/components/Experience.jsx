@@ -12,6 +12,11 @@ const Experience = () => {
       current: true,
       description:
         "Create technical content on software engineering and applied machine learning.",
+        responsibilities: [
+        "Design and evaluate RL algorithms",
+        "Run experiments and analyze results",
+        "Collaborate on research projects",
+      ],
     },
     {
       title: "Machine Learning Researcher (Reinforcement Learning)",
