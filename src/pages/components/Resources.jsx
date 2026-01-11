@@ -11,7 +11,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 // import { Link } from "react-router-dom";
-import resourceImage from '../../assets/resource.png';
+import resourceImage from '../../assets/Patternrecognition.png';
 
 const Resources = () => {
   const [filter, setFilter] = useState("all");
@@ -21,14 +21,14 @@ const Resources = () => {
 
   const resources = [
     {
-      title: "Introduction to AI with Python",
-      date: "May 10, 2024",
-      category: "AI",
+      title: "Pattern Recognition and Machine Learning",
+      date: "January 10, 2026",
+      category: "AI/ML",
       featured: true,
       image: resourceImage,
-      url: "https://www.example.com/certificate/mern-stack",
+      url: "https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf?fbclid=IwZnRzaAPPNLdleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEeCTgcMODYQpDjWszUJsKHW4QI2mXh0BUCdP_2cjLAsA4UQ2zKClgWrPCHjmk_aem_Kvj1arRP24vyhpAQANb64w#page=7.33",
       description:
-        "Completed an introductory course on Artificial Intelligence using Python programming.",
+        "Best ML book I have read in a while ",
     },
     {
       title: "Design Principles for Developers",
